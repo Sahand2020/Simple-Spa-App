@@ -1,0 +1,25 @@
+.container {
+  margin: 10px;
+  background-color: #d4d4d4;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgb(189, 189, 189);
+}
+
+.container img {
+  width: 300px;
+}
+
+.container h3 {
+  color: #696969;
+  margin: 30px 20px 20px;
+}
+
+.container p {
+  margin: 0 20px 20px;
+  background-color: rgb(10, 145, 46);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 5px;
+  color: #fff;
+}

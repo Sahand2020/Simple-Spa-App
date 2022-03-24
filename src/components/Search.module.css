@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(212, 160, 228);
+  padding: 50px 130px;
+}
+
+.container p {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  width: 230px;
+  margin-right: 20px;
+  height: 25px;
+}
+
+.container input::placeholder {
+  font-size: 1rem;
+  padding-left: 5px;
+}
+
+.container button {
+  padding: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(252, 14, 133);
+  color: white;
+}
+
+.container button:hover {
+  cursor: pointer;
+  background-color: rgb(167, 0, 83);
+}

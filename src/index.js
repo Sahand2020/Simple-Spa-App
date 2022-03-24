@@ -1,18 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-// import App from './App';
+import App from './App';
 import reportWebVitals from "./reportWebVitals";
-// import App1 from './App-Class';
-// import App2 from './App-Func';
-import Landing from './Landing';
+
+// import Landing from './Landing';
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    {/* <App1/> */}
-    {/* <App2/> */}
-    <Landing />
+
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

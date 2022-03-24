@@ -1,0 +1,23 @@
+.container {
+  background-color: rgb(134, 127, 243);
+  padding: 15px;
+}
+
+.container h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.1rem;
+  padding: 40px 0;
+}
+
+.container div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0 40px;
+}
+
+.container img {
+  width: 280px;
+  border-radius: 25px;
+}
