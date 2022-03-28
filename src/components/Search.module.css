@@ -39,3 +39,24 @@
   cursor: pointer;
   background-color: rgb(167, 0, 83);
 }
+
+.searchShow {
+  overflow: hidden;
+  background-color: rgb(63, 206, 123);
+  padding: 8px;
+  margin-top: 20px;
+  max-width: 300px;
+  width: 300px;
+  height: 100px;
+}
+
+.container input:focus {
+  background-color: rgb(46, 43, 43);
+  color: white;
+  outline: none;
+}
+
+.container input:not(:focus) {
+  background-color: rgb(46, 43, 43);
+  color: white;
+}
