@@ -1,7 +1,7 @@
-# React Landing Page
-This is my first React project . A simple landing page by React.js .
+# React SPA App
+This is a simple spa app. my first project with React.js.
 
-It is not responsive.
+This is not responsive.
 
 <br/>
 
