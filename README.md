@@ -7,4 +7,4 @@ This is not responsive.
 
 and this is the link of my project :
 
-https://simple-react-landing-page.vercel.app/
+https://simple-spa-app.vercel.app/
