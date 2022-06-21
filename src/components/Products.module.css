@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid rgb(255, 255, 255);
+    border-color: rgb(255, 0, 0) transparent rgb(238, 3, 3) transparent;
+    animation: ring 1.2s linear infinite;
+}
+@keyframes ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
